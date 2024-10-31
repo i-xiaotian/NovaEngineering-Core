@@ -88,4 +88,42 @@ public class NovaEngUtils {
         return formatDouble(value / 1000.0D, 1) + "P FloPS";
     }
 
+    @ZenMethod
+    public static int float2Int(float value) {
+        return 1;
+    }
+
+    @ZenMethod
+    public static String formatLong2Time(long seconds) {
+        if (seconds <= 0) {
+            return "0秒";
+        }
+
+        long year = seconds / (60 * 60 * 24 * 365);
+        seconds %= (60 * 60 * 24 * 365);
+
+        long month = seconds / (60 * 60 * 24 * 30);
+        seconds %= (60 * 60 * 24 * 30);
+
+        long day = seconds / (60 * 60 * 24);
+        seconds %= (60 * 60 * 24);
+
+        long hour = seconds / (60 * 60);
+        seconds %= (60 * 60);
+
+        long minute = seconds / 60;
+        seconds %= 60;
+
+        StringBuilder result = new StringBuilder();
+
+        if (year > 0) result.append(year).append("年");
+        if (month > 0) result.append(month).append("月");
+        if (day > 0) result.append(day).append("天");
+        if (hour > 0) result.append(hour).append("小时");
+        if (minute > 0) result.append(minute).append("分钟");
+        if (seconds > 0) result.append(seconds).append("秒");
+
+        return result.toString();
+    }
+
 }

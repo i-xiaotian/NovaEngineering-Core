@@ -31,8 +31,8 @@ public class AdapterShredder extends RecipeAdapter {
 
         recipes.addAll(PulverizerRecipeConverter.convert(
                 stack -> createRecipeShell(owningMachineName, HashedItemStack.stackToString(stack), modifiers), stacks -> checkStackRegistered(registeredStack, stacks), modifiers));
-        recipes.addAll(NCOBasicRecipeConverter.convert(
-                stack -> createRecipeShell(owningMachineName, HashedItemStack.stackToString(stack), modifiers), stacks -> checkStackRegistered(registeredStack, stacks), modifiers, 10));
+//        recipes.addAll(NCOBasicRecipeConverter.convert(
+//                stack -> createRecipeShell(owningMachineName, HashedItemStack.stackToString(stack), modifiers), stacks -> checkStackRegistered(registeredStack, stacks), modifiers, 10));
         recipes.addAll(MekCrusherRecipeConverter.convert(
                 stack -> createRecipeShell(owningMachineName, HashedItemStack.stackToString(stack), modifiers), stacks -> checkStackRegistered(registeredStack, stacks), modifiers, 10));
         recipes.addAll(IC2MachineRecipeConverter.convertMaceratorRecipes(

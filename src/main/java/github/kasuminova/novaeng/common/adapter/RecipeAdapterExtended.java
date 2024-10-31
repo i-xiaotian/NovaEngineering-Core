@@ -17,7 +17,7 @@ public class RecipeAdapterExtended {
             RegistriesMM.ADAPTER_REGISTRY.register(new AdapterNCOPressurizer());
             RegistriesMM.ADAPTER_REGISTRY.register(new AdapterNCOElectrolyzer());
         }
-        if (Loader.isModLoaded("thermalexpansion") && Mods.MEKANISM.isPresent() && Mods.NUCLEARCRAFT_OVERHAULED.isPresent() && Mods.IC2.isPresent()) {
+        if (Loader.isModLoaded("thermalexpansion") && Mods.MEKANISM.isPresent() && Mods.IC2.isPresent()) {
             RegistriesMM.ADAPTER_REGISTRY.register(new AdapterShredder());
         }
         if (Mods.BOTANIA.isPresent()) {
