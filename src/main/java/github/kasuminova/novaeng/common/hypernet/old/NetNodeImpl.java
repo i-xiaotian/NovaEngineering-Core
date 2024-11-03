@@ -53,7 +53,7 @@ public class NetNodeImpl extends NetNode {
 
         double generation = center.getComputationPointGeneration() - center.getComputationPointConsumption();
         if (generation < pointRequired) {
-            event.setFailed("算力不足！预期："
+            event.setFailed("量子比特不足！预期："
                     + NovaEngUtils.formatFLOPS(pointRequired) + "，当前："
                     + NovaEngUtils.formatFLOPS(generation));
             return;
@@ -111,7 +111,7 @@ public class NetNodeImpl extends NetNode {
 
         double consumed = center.consumeComputationPoint(required);
         if (consumed < required) {
-            String failureMessage = String.format("算力不足！预期：%s，当前：%s",
+            String failureMessage = String.format("量子比特不足！预期：%s，当前：%s",
                     NovaEngUtils.formatFLOPS(required), NovaEngUtils.formatFLOPS(consumed));
 
             if (triggerFailure) {
@@ -136,7 +136,7 @@ public class NetNodeImpl extends NetNode {
 
         double consumed = center.consumeComputationPoint(required);
         if (consumed < required) {
-            String failureMessage = String.format("算力不足！预期：%s，当前：%s",
+            String failureMessage = String.format("量子比特不足！预期：%s，当前：%s",
                     NovaEngUtils.formatFLOPS(required), NovaEngUtils.formatFLOPS(consumed));
 
             if (triggerFailure) {

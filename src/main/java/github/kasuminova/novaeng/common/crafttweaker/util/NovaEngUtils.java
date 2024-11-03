@@ -1,6 +1,8 @@
 package github.kasuminova.novaeng.common.crafttweaker.util;
 
 import crafttweaker.annotations.ZenRegister;
+import crafttweaker.api.item.IItemDefinition;
+import crafttweaker.api.item.IItemStack;
 import stanhebben.zenscript.annotations.ZenClass;
 import stanhebben.zenscript.annotations.ZenMethod;
 
@@ -86,11 +88,6 @@ public class NovaEngUtils {
             return formatDouble(value, 1) + "T FloPS";
         }
         return formatDouble(value / 1000.0D, 1) + "P FloPS";
-    }
-
-    @ZenMethod
-    public static int float2Int(float value) {
-        return 1;
     }
 
     @ZenMethod

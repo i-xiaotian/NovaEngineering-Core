@@ -1,23 +1,23 @@
 item.hypernet_connect_card.tooltip.1=§9这张存储卡可以储存一个 星辰网络 的频段和坐标信息，存储的密钥经过重重加密。
-item.hypernet_connect_card.tooltip.2=§9右击支持 HyperNet 的机械控制器，即可自动解析存储卡并连接至 HyperNet 计算网络。
+item.hypernet_connect_card.tooltip.2=§9右击支持 星辰网络 的机械控制器，即可自动解析存储卡并连接至 星辰网络。
 item.hypernet_connect_card.tooltip.3=§a存储卡可以重复使用。
-item.hypernet_connect_card.tooltip.4=§c警告：使用时请保持 HyperNet 计算网络中心在线。HyperNet 通讯距离无限，但是无法跨越维度。
+item.hypernet_connect_card.tooltip.4=§c警告：使用时请保持 星辰网络 路由器在线。星辰网络 通讯距离无限，但是无法跨越维度。
 item.hypernet_connect_card.tooltip.no_pos.tip.0=§b存储卡中保存的坐标：§e空
 item.hypernet_connect_card.tooltip.no_pos.tip.1=§2右击任意等级的计算网络中心控制器来写入数据。
 item.hypernet_connect_card.tooltip.pos.tip.0=§b存储卡中保存的坐标：§a（X: %s, Y: %s, Z: %s）
-item.hypernet_connect_card.tooltip.pos.tip.1=§2右击任意等级的计算网络中心控制器来覆写数据。
+item.hypernet_connect_card.tooltip.pos.tip.1=§2右击任意等级的路由器控制器来覆写数据。
 
-item.novaeng_core.estorage_cell_item_16m.name=§9ECO - §bLE4 §9存储矩阵§a（物品）
-item.novaeng_core.estorage_cell_item_64m.name=§9ECO - §6LE6 §9存储矩阵§a（物品）
-item.novaeng_core.estorage_cell_item_256m.name=§9ECO - §5LE9 §9存储矩阵§a（物品）
+item.novaeng_core.estorage_cell_item_16m.name=§bLE4 §9存储矩阵§a（物品）
+item.novaeng_core.estorage_cell_item_64m.name=§6LE6 §9存储矩阵§a（物品）
+item.novaeng_core.estorage_cell_item_256m.name=§5LE9 §9存储矩阵§a（物品）
 
-item.novaeng_core.estorage_cell_fluid_16m.name=§9ECO - §bLE4 §9存储矩阵§b（流体）
-item.novaeng_core.estorage_cell_fluid_64m.name=§9ECO - §6LE6 §9存储矩阵§b（流体）
-item.novaeng_core.estorage_cell_fluid_256m.name=§9ECO - §5LE9 §9存储矩阵§b（流体）
+item.novaeng_core.estorage_cell_fluid_16m.name=§bLE4 §9存储矩阵§b（流体）
+item.novaeng_core.estorage_cell_fluid_64m.name=§6LE6 §9存储矩阵§b（流体）
+item.novaeng_core.estorage_cell_fluid_256m.name=§5LE9 §9存储矩阵§b（流体）
 
-item.novaeng_core.ecalculator_cell_64m.name=§9ECO - §bCE4 §b闪存晶阵
-item.novaeng_core.ecalculator_cell_1024m.name=§9ECO - §6CE6 §b闪存晶阵
-item.novaeng_core.ecalculator_cell_16384m.name=§9ECO - §5CE9 §b闪存晶阵
+item.novaeng_core.ecalculator_cell_64m.name=§bCE4 §b闪存晶阵
+item.novaeng_core.ecalculator_cell_1024m.name=§6CE6 §b闪存晶阵
+item.novaeng_core.ecalculator_cell_16384m.name=§5CE9 §b闪存晶阵
 
 novaeng.ecalculator_cell.insert.tip=蹲下时手持矩阵并右击驱动器以插入晶阵。
 novaeng.ecalculator_cell.extract.tip=蹲下时空手并右击驱动器以取出晶阵。
@@ -120,30 +120,30 @@ novaeng.ecalculator_me_channel.info.2=  此子系统§a不消耗§7额外能源�
 novaeng.ecalculator_me_channel.info.3=通过连接 ME 线缆至§9通讯接口§7以和子系统建立连接。
 
 novaeng.hypernet.connect.result.success=§a连接成功§b（状态：%s 已连接 / %s 最大连接数）。
-novaeng.hypernet.connect.result.no_permission=§c连接失败，HyperNet 网络授权密钥不匹配（原因：非网络所有者）。
-novaeng.hypernet.connect.result.unknown_center=§c连接失败（原因：未知的计算网络中心，区块可能被卸载或控制器不存在）。
-novaeng.hypernet.connect.result.center_not_working=§c连接失败（原因：计算网络中心处于离线状态）。
-novaeng.hypernet.connect.result.center_reached_connection_limit=§c连接失败（原因：已达到计算网络中心的最大连接数：%s）。
+novaeng.hypernet.connect.result.no_permission=§c连接失败，星辰网络 网络授权密钥不匹配（原因：非网络所有者）。
+novaeng.hypernet.connect.result.unknown_center=§c连接失败（原因：未知的路由器，区块可能被卸载或控制器不存在）。
+novaeng.hypernet.connect.result.center_not_working=§c连接失败（原因：路由器处于离线状态）。
+novaeng.hypernet.connect.result.center_reached_connection_limit=§c连接失败（原因：已达到星辰网络的最大连接数：%s）。
 novaeng.hypernet.connect.result.unsupported_node=§c连接失败（原因：未知的网络节点）。
 novaeng.hypernet.connect.result.node_type_reached_max_presences=§c连接失败（原因：已达到当前网络节点类型的连接上限：%s）。
 
-novaeng.hypernet.connect_card.write_failed.no_permission=§cHyperNet 网络授权访问被拒绝（原因：非网络所有者）。
+novaeng.hypernet.connect_card.write_failed.no_permission=§星辰网络 网络授权访问被拒绝（原因：非网络所有者）。
 
 novaeng.hypernet.connect_card.write_success=§a写入成功。
-novaeng.hypernet.connect_card.write_success.new_owner=§a写入成功，并且现在您是此网络中心的所有者。
+novaeng.hypernet.connect_card.write_success.new_owner=§a写入成功，并且现在您是此路由器的所有者。
 
-upgrade.data_processor.module.cpu.tip.0=§9CPU 模块为数据处理计算机提供算力。
-upgrade.data_processor.module.cpu.tip.1=§9耐久低于 §e25%%§9 时，算力产出逐渐开始§c降低§9，最多 §c25%%。
+upgrade.data_processor.module.cpu.tip.0=§9CPU 模块为计算机提供量子比特。
+upgrade.data_processor.module.cpu.tip.1=§9耐久低于 §e25%%§9 时，量子比特产出逐渐开始§c降低§9，最多 §c25%%。
 upgrade.data_processor.module.cpu.tip.2=§9工作时每秒有 §a10%% §9的概率降低 §e1 §9点耐久。
 
-upgrade.data_processor.module.gpu.tip.0=§9GPU 模块为数据处理计算机提供§2大量§9算力。
-upgrade.data_processor.module.gpu.tip.1=§9耐久低于 §e50%%§9 时，算力产出逐渐开始§c降低§9，最多 §c50%%。
+upgrade.data_processor.module.gpu.tip.0=§9GPU 模块为计算机提供§2大量§9量子比特。
+upgrade.data_processor.module.gpu.tip.1=§9耐久低于 §e50%%§9 时，量子比特产出逐渐开始§c降低§9，最多 §c50%%。
 upgrade.data_processor.module.gpu.tip.2=§9工作时每秒有 §a10%% §9的概率降低 §e1 §9点耐久。
 
-upgrade.data_processor.module.cpu.generate=§9算力: §b%s§9 (效率: %s)
+upgrade.data_processor.module.cpu.generate=§9量子比特: §b%s§9 (效率: %s)
 
-upgrade.data_processor.module.ram.tip.0=§9内存模块将决定数据处理计算机产出的算力§e上限§9。
-upgrade.data_processor.module.ram.tip.1=§9耐久低于 §e25%%§9 时，算力产出逐渐开始§c降低§9，最多 §c25%%。
+upgrade.data_processor.module.ram.tip.0=§9内存模块将决定计算机产出的量子比特§e上限§9。
+upgrade.data_processor.module.ram.tip.1=§9耐久低于 §e25%%§9 时，量子比特产出逐渐开始§c降低§9，最多 §c25%%。
 upgrade.data_processor.module.ram.tip.2=§9工作时每秒有 §a10%% §9的概率降低 §e1 §9点耐久。
 
 upgrade.data_processor.module.ram.limit_provision=§9上限提供: §e%s§9 (效率: %s)
@@ -152,13 +152,13 @@ upgrade.data_processor.module.energy.tip=§9最大功耗：§c%s
 upgrade.data_processor.module.durability.tip=§9耐久：§e%s / %s§a（%s）
 upgrade.data_processor.module.durability.unknown.tip=§9最大耐久（等待计算机初始化）：§e%s ～ %s
 
-top.hypernet.online=§9HyperNet 网络状态：§a已连接
-top.hypernet.offline=§9HyperNet 网络状态：§c断开连接
+top.hypernet.online=§9星辰网络状态：§a已连接
+top.hypernet.offline=§9星辰网络状态：§c断开连接
 
 top.hypernet.connected=§9网络当前在线设备数量：
 
-top.hypernet.computation_point_consumption=§9算力消耗：
-top.hypernet.computation_point_generation=§9算力产出：
+top.hypernet.computation_point_consumption=§9量子比特消耗：
+top.hypernet.computation_point_generation=§9量子比特产出：
 
 top.hypernet.research_station.current=§9当前研究：
 top.hypernet.research_station.current.empty=§9当前研究：§c无
@@ -167,9 +167,9 @@ top.hypernet.research_station.progress=§9研究进度
 top.hypernet.database.stored.research=§9已存储研究认知数量：
 top.hypernet.database.stored.research.max=§9最大研究认知存储数量：
 
-top.hypernet.computation_point.total=§9网络总算力消耗 / 产出：
+top.hypernet.computation_point.total=§9网络总量子比特消耗 / 产出：
 
-top.hypernet.processor.generation=§9当前算力 / 最大算力：
+top.hypernet.processor.generation=§9当前量子比特 / 最大量子比特：
 top.hypernet.processor.efficiency=§9工作效率：
 top.hypernet.processor.load=§9平均负载：
 top.hypernet.processor.circuit_durability=§9电路板耐久剩余：
@@ -199,7 +199,7 @@ top.ecalculator.thread_core.status.online=§a在线
 top.ecalculator.thread_core.threads=§9线程状态：
 top.ecalculator.thread_core.crafting=§9正在合成：
 
-tile.novaeng_core.hypernet_terminal_controller.name=HyperNet 网络终端
+tile.novaeng_core.hypernet_terminal_controller.name=星辰网络 网络终端
 tile.novaeng_core.modular_server_assembler.name=模块服务器组装台（未实装）
 tile.novaeng_core.angel_block.name=天使方块+
 tile.novaeng_core.angel_block.tip.0=天使方块，但是更加智能！
@@ -217,36 +217,36 @@ tile.novaeng_core.estorage_me_channel.name=§9ECO - §bLR §9ME 矩阵通讯接�
 tile.novaeng_core.estorage_vent.name=§9存储系统结构散热器
 tile.novaeng_core.estorage_casing.name=§9存储系统结构外壳
 
-tile.novaeng_core.extendable_fabricator_subsystem_l4.name=§9ECO - §bF4 §e可扩展合成子系统主机
-tile.novaeng_core.extendable_fabricator_subsystem_l6.name=§9ECO - §6F6 §e可扩展合成子系统主机
-tile.novaeng_core.extendable_fabricator_subsystem_l9.name=§9ECO - §5F9 §e可扩展合成子系统主机
-tile.novaeng_core.efabricator_worker.name=§9ECO - §eFX §b工作核心
-tile.novaeng_core.efabricator_parallel_proc_l4.name=§9ECO - §bFT4 §5并行核心
-tile.novaeng_core.efabricator_parallel_proc_l6.name=§9ECO - §6FT6 §5并行核心
-tile.novaeng_core.efabricator_parallel_proc_l9.name=§9ECO - §5FT9 §5并行核心
-tile.novaeng_core.efabricator_pattern_bus.name=§9ECO - §eFD 智能样板总线
-tile.novaeng_core.efabricator_me_channel.name=§9ECO - §eFR §9ME 矩阵通讯接口
+tile.novaeng_core.extendable_fabricator_subsystem_l4.name=§bF4 §e可扩展合成子系统主机
+tile.novaeng_core.extendable_fabricator_subsystem_l6.name=§6F6 §e可扩展合成子系统主机
+tile.novaeng_core.extendable_fabricator_subsystem_l9.name=§5F9 §e可扩展合成子系统主机
+tile.novaeng_core.efabricator_worker.name=§eFX §b工作核心
+tile.novaeng_core.efabricator_parallel_proc_l4.name=§bFT4 §5并行核心
+tile.novaeng_core.efabricator_parallel_proc_l6.name=§6FT6 §5并行核心
+tile.novaeng_core.efabricator_parallel_proc_l9.name=§5FT9 §5并行核心
+tile.novaeng_core.efabricator_pattern_bus.name=§eFD 智能样板总线
+tile.novaeng_core.efabricator_me_channel.name=§eFR §9ME 矩阵通讯接口
 tile.novaeng_core.efabricator_vent.name=§e合成系统结构散热器
 tile.novaeng_core.efabricator_casing.name=§e合成系统结构外壳
 tile.novaeng_core.efabricator_tail_l4.name=§e合成系统结构连结器 - §bF4
 tile.novaeng_core.efabricator_tail_l6.name=§e合成系统结构连结器 - §6F6
 tile.novaeng_core.efabricator_tail_l9.name=§e合成系统结构连结器 - §5F9
 
-tile.novaeng_core.extendable_calculator_subsystem_l4.name=§9ECO - §bC4 §b可扩展计算子系统主机
-tile.novaeng_core.extendable_calculator_subsystem_l6.name=§9ECO - §6C6 §b可扩展计算子系统主机
-tile.novaeng_core.extendable_calculator_subsystem_l9.name=§9ECO - §5C9 §b可扩展计算子系统主机
-tile.novaeng_core.ecalculator_cell_drive.name=§9ECO - §bCD §9晶阵驱动器
-tile.novaeng_core.ecalculator_transmitter_bus.name=§9ECO - §bCI §b超导晶阵传输总线
-tile.novaeng_core.ecalculator_parallel_proc_l4.name=§9ECO - §bCT4 §5并行核心
-tile.novaeng_core.ecalculator_parallel_proc_l6.name=§9ECO - §6CT6 §5并行核心
-tile.novaeng_core.ecalculator_parallel_proc_l9.name=§9ECO - §5CT9 §5并行核心
-tile.novaeng_core.ecalculator_thread_core_l4.name=§9ECO - §bCM4A §b线程核心
-tile.novaeng_core.ecalculator_thread_core_hyper_l4.name=§9ECO - §bCM4B §9超线程核心
-tile.novaeng_core.ecalculator_thread_core_l6.name=§9ECO - §6CM6A §b线程核心
-tile.novaeng_core.ecalculator_thread_core_hyper_l6.name=§9ECO - §6CM6B §9超线程核心
-tile.novaeng_core.ecalculator_thread_core_l9.name=§9ECO - §5CM9A §b线程核心
-tile.novaeng_core.ecalculator_thread_core_hyper_l9.name=§9ECO - §5CM9B §9超线程核心
-tile.novaeng_core.ecalculator_me_channel.name=§9ECO - §bCR §9ME 矩阵通讯接口
+tile.novaeng_core.extendable_calculator_subsystem_l4.name=§bC4 §b可扩展计算子系统主机
+tile.novaeng_core.extendable_calculator_subsystem_l6.name=§6C6 §b可扩展计算子系统主机
+tile.novaeng_core.extendable_calculator_subsystem_l9.name=§5C9 §b可扩展计算子系统主机
+tile.novaeng_core.ecalculator_cell_drive.name=§bCD §9晶阵驱动器
+tile.novaeng_core.ecalculator_transmitter_bus.name=§bCI §b超导晶阵传输总线
+tile.novaeng_core.ecalculator_parallel_proc_l4.name=§bCT4 §5并行核心
+tile.novaeng_core.ecalculator_parallel_proc_l6.name=§6CT6 §5并行核心
+tile.novaeng_core.ecalculator_parallel_proc_l9.name=§5CT9 §5并行核心
+tile.novaeng_core.ecalculator_thread_core_l4.name=§bCM4A §b线程核心
+tile.novaeng_core.ecalculator_thread_core_hyper_l4.name=§bCM4B §9超线程核心
+tile.novaeng_core.ecalculator_thread_core_l6.name=§6CM6A §b线程核心
+tile.novaeng_core.ecalculator_thread_core_hyper_l6.name=§6CM6B §9超线程核心
+tile.novaeng_core.ecalculator_thread_core_l9.name=§5CM9A §b线程核心
+tile.novaeng_core.ecalculator_thread_core_hyper_l9.name=§5CM9B §9超线程核心
+tile.novaeng_core.ecalculator_me_channel.name=§bCR §9ME 矩阵通讯接口
 tile.novaeng_core.ecalculator_casing.name=§b计算系统结构外壳
 tile.novaeng_core.ecalculator_tail_l4.name=§b计算系统散热总控 - §bC4
 tile.novaeng_core.ecalculator_tail_l6.name=§b计算系统散热总控 - §6C6
@@ -256,8 +256,8 @@ tile.novaeng_core.geocentric_drill_controller.name=§6地心钻探机控制器
 
 craftcheck.failure.geocentric_drill_depth=无法钻探，最低钻探深度为 1000m！
 
-novaeng.hypernet.computation_point_required.tip=§9算力：§b%s
-novaeng.hypernet.computation_point_required.tip.parallelized=§9算力 (受并行影响)：§b%s
+novaeng.hypernet.computation_point_required.tip=§9量子比特：§b%s
+novaeng.hypernet.computation_point_required.tip.parallelized=§9量子比特 (受并行影响)：§b%s
 
 novaeng.hypernet.calculable.tip.base_ratio=§b基础效率系数：§a%s
 novaeng.hypernet.calculable.tip.energy_consume_ratio=§b设计最大能耗：§c%s RF/t
@@ -280,12 +280,12 @@ novaeng.hypernet.calculate.type.qbit=§a%s §e量子位§f
 
 novaeng.hypernet.research_required.tip=§6需要研究认知：§f%s
 
-gui.hypernet.controller.title=§9///////// HyperNet 代理网络 /////////
-gui.hypernet.controller.computation_point_consumption=§9算力消耗：§b
-gui.hypernet.controller.computation_point_consumption.total=§9总算力消耗 / 产出：§b%s / %s
+gui.hypernet.controller.title=§9///////// 星辰网络 代理网络 /////////
+gui.hypernet.controller.computation_point_consumption=§9量子比特消耗：§b
+gui.hypernet.controller.computation_point_consumption.total=§9总量子比特消耗 / 产出：§b%s / %s
 gui.hypernet.controller.connected=§9网络状态：§a已连接
 gui.hypernet.controller.disconnected=§9网络状态：§c断开连接
-gui.hypernet.controller.version=§7HyperNet Proxy Monitor v1.0
+gui.hypernet.controller.version=§7StarsNet Lan Monitor v2.0
 gui.hypernet.controller.footer=§9/////////////////////////////////////////
 
 novaeng.hypernet.maintenance_controller=维护控制器
@@ -305,9 +305,9 @@ novaeng.hypernet.data_processor.working.tooltip.1=最终耗电量取决于处理
 novaeng.hypernet.database.working.tooltip.0=闲置状态下，始终会消耗机械基础电量。
 novaeng.hypernet.database.working.tooltip.1=每存储 §a1 §f个研究认知，最终耗电量 §c+10%%§f。
 
-novaeng.hypernet.research_station.hypercol=HyperCol AI
+novaeng.hypernet.research_station.hypercol=StarsCol AI
 novaeng.hypernet.research_station.working.tooltip.0=仅在工作状态下消耗能量。
-novaeng.hypernet.research_station.working.tooltip.1=工作状态下根据当前研究，消耗指定数量的算力。
+novaeng.hypernet.research_station.working.tooltip.1=工作状态下根据当前研究，消耗指定数量的量子比特。
 
 novaeng.hypernet.repair.tooltip=完成时，修复 §a%s §f点耐久值。
 novaeng.hypernet.radiator.tooltip=工作时，每秒可以吸收 §c%sHU§f 内部热量。
@@ -329,16 +329,16 @@ novaeng.hypernet.tech_level.14=§414§4.
 
 novaeng.adapter.mc.furnace.exp=完成时，添加 §a%s §f点经验。
 
-gui.toast.research.complete=HyperNet 研究已完成！
+gui.toast.research.complete=星辰网络 研究已完成！
 
-gui.terminal_controller.title.nxc=nxc 的虚空终端
+gui.terminal_controller.title.nxc=虚空终端
 gui.terminal_controller.search=§7§o搜索研究...
 gui.terminal_controller.status=§b状态：
 gui.terminal_controller.status.missing_structure=§c结构不完整
 gui.terminal_controller.status.online=§a终端在线
 gui.terminal_controller.status.offline=§c终端离线
-gui.terminal_controller.status.network.computation_point_consumption=§9总算力消耗：
-gui.terminal_controller.status.network.computation_point_generation=§9总算力产出：
+gui.terminal_controller.status.network.computation_point_consumption=§9总量子比特消耗：
+gui.terminal_controller.status.network.computation_point_generation=§9总量子比特产出：
 gui.terminal_controller.status.network.computation_point.info=§b%s
 gui.terminal_controller.status.network.total_connected=§9在线设备数量：§b
 
@@ -357,7 +357,7 @@ gui.terminal_controller.screen.info.dependencies=前置研究：
 gui.terminal_controller.screen.info.dependencies.none=§2无
 gui.terminal_controller.screen.info.tech_level=科技等级：
 gui.terminal_controller.screen.info.required_points=需要研究点：§9
-gui.terminal_controller.screen.info.min_computation_point_per_tick=最低算力要求：§b
+gui.terminal_controller.screen.info.min_computation_point_per_tick=最低量子比特要求：§b
 
 gui.terminal_controller.screen.info.unavailable.0=§c研究描述不可用。
 gui.terminal_controller.screen.info.unavailable.1=§c解锁该研究所有的前置研究以继续。
@@ -368,10 +368,10 @@ gui.terminal_controller.screen.info.start=§a左击向研究站发送当前研�
 gui.terminal_controller.screen.info.start.instant=§9中键点击向研究站强制发送当前研究任务，并立即完成研究（需要创造模式，网络中数据库已满时可能无法发送）。
 gui.terminal_controller.screen.info.reset=§e右击取消研究站当前正在进行的任务。
 gui.terminal_controller.screen.info.start.time=§9预计耗时：%s 小时 %s 分钟 %s 秒（%s Ticks）。
-gui.terminal_controller.screen.info.start.warn.computation=§e警告：当前算力可能不足以完成研究。
+gui.terminal_controller.screen.info.start.warn.computation=§e警告：当前量子比特可能不足以完成研究。
 gui.terminal_controller.screen.info.start.error=§c无法开始研究。
 gui.terminal_controller.screen.info.start.error.tech_level=§c未找到研究站或研究站等级过低。
-gui.terminal_controller.screen.info.start.error.computation=§c算力不足。
+gui.terminal_controller.screen.info.start.error.computation=§c量子比特不足。
 gui.terminal_controller.screen.info.start.error.database_space=§c未找到网络数据库或网络数据库空间已满。
 gui.terminal_controller.screen.info.start.error.dependencies=§c缺失前置研究：%s
 

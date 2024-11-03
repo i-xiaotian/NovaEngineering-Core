@@ -67,7 +67,7 @@ public class ResearchStation extends NetNode {
 
         double required = Math.min(getComputationLeft(), currentResearching.getMinComputationPointPerTick());
         if (center.getComputationPointGeneration() < required) {
-            event.setFailed("算力不足！预期：" + NovaEngUtils.formatFLOPS(required) + "，当前：" + NovaEngUtils.formatFLOPS(center.getComputationPointGeneration()));
+            event.setFailed("量子比特不足！预期：" + NovaEngUtils.formatFLOPS(required) + "，当前：" + NovaEngUtils.formatFLOPS(center.getComputationPointGeneration()));
             return;
         }
 
@@ -107,7 +107,7 @@ public class ResearchStation extends NetNode {
         double required = Math.min(getComputationLeft(), currentResearching.getMinComputationPointPerTick());
         double consumed = center.consumeComputationPoint(required);
         if (consumed < required) {
-            event.preventProgressing("算力不足！预期："
+            event.preventProgressing("量子比特不足！预期："
                     + NovaEngUtils.formatFLOPS(required) + "，当前："
                     + NovaEngUtils.formatFLOPS(consumed));
         } else {

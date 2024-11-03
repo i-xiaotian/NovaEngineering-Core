@@ -132,18 +132,18 @@ novaeng.hypernet.connect_card.write_failed.no_permission=§cHyperNet 网络授�
 novaeng.hypernet.connect_card.write_success=§a写入成功。
 novaeng.hypernet.connect_card.write_success.new_owner=§a写入成功，并且现在您是此网络中心的所有者。
 
-upgrade.data_processor.module.cpu.tip.0=§9CPU 模块为数据处理计算机提供算力。
-upgrade.data_processor.module.cpu.tip.1=§9耐久低于 §e25%%§9 时，算力产出逐渐开始§c降低§9，最多 §c25%%。
+upgrade.data_processor.module.cpu.tip.0=§9CPU 模块为计算机提供量子比特。
+upgrade.data_processor.module.cpu.tip.1=§9耐久低于 §e25%%§9 时，量子比特产出逐渐开始§c降低§9，最多 §c25%%。
 upgrade.data_processor.module.cpu.tip.2=§9工作时每秒有 §a10%% §9的概率降低 §e1 §9点耐久。
 
-upgrade.data_processor.module.gpu.tip.0=§9GPU 模块为数据处理计算机提供§2大量§9算力。
-upgrade.data_processor.module.gpu.tip.1=§9耐久低于 §e50%%§9 时，算力产出逐渐开始§c降低§9，最多 §c50%%。
+upgrade.data_processor.module.gpu.tip.0=§9GPU 模块为计算机提供§2大量§9量子比特。
+upgrade.data_processor.module.gpu.tip.1=§9耐久低于 §e50%%§9 时，量子比特产出逐渐开始§c降低§9，最多 §c50%%。
 upgrade.data_processor.module.gpu.tip.2=§9工作时每秒有 §a10%% §9的概率降低 §e1 §9点耐久。
 
-upgrade.data_processor.module.cpu.generate=§9算力: §b%s§9 (效率: %s)
+upgrade.data_processor.module.cpu.generate=§9量子比特: §b%s§9 (效率: %s)
 
-upgrade.data_processor.module.ram.tip.0=§9内存模块将决定数据处理计算机产出的算力§e上限§9。
-upgrade.data_processor.module.ram.tip.1=§9耐久低于 §e25%%§9 时，算力产出逐渐开始§c降低§9，最多 §c25%%。
+upgrade.data_processor.module.ram.tip.0=§9内存模块将决定计算机产出的量子比特§e上限§9。
+upgrade.data_processor.module.ram.tip.1=§9耐久低于 §e25%%§9 时，量子比特产出逐渐开始§c降低§9，最多 §c25%%。
 upgrade.data_processor.module.ram.tip.2=§9工作时每秒有 §a10%% §9的概率降低 §e1 §9点耐久。
 
 upgrade.data_processor.module.ram.limit_provision=§9上限提供: §e%s§9 (效率: %s)
@@ -157,8 +157,8 @@ top.hypernet.offline=§9HyperNet 网络状态：§c断开连接
 
 top.hypernet.connected=§9网络当前在线设备数量：
 
-top.hypernet.computation_point_consumption=§9算力消耗：
-top.hypernet.computation_point_generation=§9算力产出：
+top.hypernet.computation_point_consumption=§9量子比特消耗：
+top.hypernet.computation_point_generation=§9量子比特产出：
 
 top.hypernet.research_station.current=§9当前研究：
 top.hypernet.research_station.current.empty=§9当前研究：§c无
@@ -167,9 +167,9 @@ top.hypernet.research_station.progress=§9研究进度
 top.hypernet.database.stored.research=§9已存储研究认知数量：
 top.hypernet.database.stored.research.max=§9最大研究认知存储数量：
 
-top.hypernet.computation_point.total=§9网络总算力消耗 / 产出：
+top.hypernet.computation_point.total=§9网络总量子比特消耗 / 产出：
 
-top.hypernet.processor.generation=§9当前算力 / 最大算力：
+top.hypernet.processor.generation=§9当前量子比特 / 最大量子比特：
 top.hypernet.processor.efficiency=§9工作效率：
 top.hypernet.processor.load=§9平均负载：
 top.hypernet.processor.circuit_durability=§9电路板耐久剩余：
@@ -260,8 +260,8 @@ tile.novaeng_core.geocentric_drill_controller.name=§6地心钻探机控制器
 
 craftcheck.failure.geocentric_drill_depth=无法钻探，最低钻探深度为 1000m！
 
-novaeng.hypernet.computation_point_required.tip=§9算力：§b%s
-novaeng.hypernet.computation_point_required.tip.parallelized=§9算力 (受并行影响)：§b%s
+novaeng.hypernet.computation_point_required.tip=§9量子比特：§b%s
+novaeng.hypernet.computation_point_required.tip.parallelized=§9量子比特 (受并行影响)：§b%s
 
 novaeng.hypernet.calculable.tip.base_ratio=§b基础效率系数：§a%s
 novaeng.hypernet.calculable.tip.energy_consume_ratio=§b设计最大能耗：§c%s RF/t
@@ -289,7 +289,7 @@ gui.hypernet.controller.computation_point_consumption=§9算力消耗：§b
 gui.hypernet.controller.computation_point_consumption.total=§9总算力消耗 / 产出：§b%s / %s
 gui.hypernet.controller.connected=§9网络状态：§a已连接
 gui.hypernet.controller.disconnected=§9网络状态：§c断开连接
-gui.hypernet.controller.version=§7HyperNet Proxy Monitor v1.0
+gui.hypernet.controller.version=§7星辰网络 Lan v2.0
 gui.hypernet.controller.footer=§9/////////////////////////////////////////
 
 novaeng.hypernet.maintenance_controller=维护控制器
