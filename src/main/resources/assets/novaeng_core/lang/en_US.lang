@@ -1,11 +1,11 @@
 item.hypernet_connect_card.tooltip.1=§9这张存储卡可以储存一个 HyperNet 网络的频段和坐标信息，存储的密钥经过重重加密。
-item.hypernet_connect_card.tooltip.2=§9右击支持 HyperNet 的机械控制器，即可自动解析存储卡并连接至 HyperNet 计算网络。
+item.hypernet_connect_card.tooltip.2=§9右击支持 HyperNet 的机械控制器，即可自动解析存储卡并连接至 HyperNet 星辰网络。
 item.hypernet_connect_card.tooltip.3=§a存储卡可以重复使用。
-item.hypernet_connect_card.tooltip.4=§c警告：使用时请保持 HyperNet 计算网络中心在线。HyperNet 通讯距离无限，但是无法跨越维度。
+item.hypernet_connect_card.tooltip.4=§c警告：使用时请保持 HyperNet 星辰网络中心在线。HyperNet 通讯距离无限，但是无法跨越维度。
 item.hypernet_connect_card.tooltip.no_pos.tip.0=§b存储卡中保存的坐标：§e空
-item.hypernet_connect_card.tooltip.no_pos.tip.1=§2右击任意等级的计算网络中心控制器来写入数据。
+item.hypernet_connect_card.tooltip.no_pos.tip.1=§2右击任意等级的星辰网络中心控制器来写入数据。
 item.hypernet_connect_card.tooltip.pos.tip.0=§b存储卡中保存的坐标：§a（X: %s, Y: %s, Z: %s）
-item.hypernet_connect_card.tooltip.pos.tip.1=§2右击任意等级的计算网络中心控制器来覆写数据。
+item.hypernet_connect_card.tooltip.pos.tip.1=§2右击任意等级的星辰网络中心控制器来覆写数据。
 
 item.novaeng_core.estorage_cell_item_16m.name=§9ECO - §bLE4 §9存储矩阵§a（物品）
 item.novaeng_core.estorage_cell_item_64m.name=§9ECO - §6LE6 §9存储矩阵§a（物品）
@@ -121,9 +121,9 @@ novaeng.ecalculator_me_channel.info.3=通过连接 ME 线缆至§9通讯接口§
 
 novaeng.hypernet.connect.result.success=§a连接成功§b（状态：%s 已连接 / %s 最大连接数）。
 novaeng.hypernet.connect.result.no_permission=§c连接失败，HyperNet 网络授权密钥不匹配（原因：非网络所有者）。
-novaeng.hypernet.connect.result.unknown_center=§c连接失败（原因：未知的计算网络中心，区块可能被卸载或控制器不存在）。
-novaeng.hypernet.connect.result.center_not_working=§c连接失败（原因：计算网络中心处于离线状态）。
-novaeng.hypernet.connect.result.center_reached_connection_limit=§c连接失败（原因：已达到计算网络中心的最大连接数：%s）。
+novaeng.hypernet.connect.result.unknown_center=§c连接失败（原因：未知的星辰网络中心，区块可能被卸载或控制器不存在）。
+novaeng.hypernet.connect.result.center_not_working=§c连接失败（原因：星辰网络中心处于离线状态）。
+novaeng.hypernet.connect.result.center_reached_connection_limit=§c连接失败（原因：已达到星辰网络中心的最大连接数：%s）。
 novaeng.hypernet.connect.result.unsupported_node=§c连接失败（原因：未知的网络节点）。
 novaeng.hypernet.connect.result.node_type_reached_max_presences=§c连接失败（原因：已达到当前网络节点类型的连接上限：%s）。
 

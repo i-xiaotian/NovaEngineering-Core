@@ -3,7 +3,7 @@ item.hypernet_connect_card.tooltip.2=§9右击支持 星辰网络 的机械控�
 item.hypernet_connect_card.tooltip.3=§a存储卡可以重复使用。
 item.hypernet_connect_card.tooltip.4=§c警告：使用时请保持 星辰网络 路由器在线。星辰网络 通讯距离无限，但是无法跨越维度。
 item.hypernet_connect_card.tooltip.no_pos.tip.0=§b存储卡中保存的坐标：§e空
-item.hypernet_connect_card.tooltip.no_pos.tip.1=§2右击任意等级的计算网络中心控制器来写入数据。
+item.hypernet_connect_card.tooltip.no_pos.tip.1=§2右击任意等级的路由器控制器来写入数据。
 item.hypernet_connect_card.tooltip.pos.tip.0=§b存储卡中保存的坐标：§a（X: %s, Y: %s, Z: %s）
 item.hypernet_connect_card.tooltip.pos.tip.1=§2右击任意等级的路由器控制器来覆写数据。
 
@@ -372,7 +372,7 @@ gui.terminal_controller.screen.info.start.warn.computation=§e警告：当前量
 gui.terminal_controller.screen.info.start.error=§c无法开始研究。
 gui.terminal_controller.screen.info.start.error.tech_level=§c未找到研究站或研究站等级过低。
 gui.terminal_controller.screen.info.start.error.computation=§c量子比特不足。
-gui.terminal_controller.screen.info.start.error.database_space=§c未找到网络数据库或网络数据库空间已满。
+gui.terminal_controller.screen.info.start.error.database_space=§c未找到NAS或NAS空间已满。
 gui.terminal_controller.screen.info.start.error.dependencies=§c缺失前置研究：%s
 
 gui.modular_server_assembler.assembly.cpu.name=CPU 槽位 §a#%s

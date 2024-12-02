@@ -3,6 +3,7 @@ package github.kasuminova.novaeng.common.crafttweaker.util;
 import crafttweaker.annotations.ZenRegister;
 import crafttweaker.api.item.IItemDefinition;
 import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.mods.IMod;
 import stanhebben.zenscript.annotations.ZenClass;
 import stanhebben.zenscript.annotations.ZenMethod;
 
@@ -85,9 +86,27 @@ public class NovaEngUtils {
     @ZenMethod
     public static String formatFLOPS(double value) {
         if (value < 1000.0F) {
-            return formatDouble(value, 1) + "T FloPS";
+            return formatDouble(value, 1) + "T QBit";
         }
-        return formatDouble(value / 1000.0D, 1) + "P FloPS";
+        return formatDouble(value / 1000.0D, 1) + "P QBit";
+    }
+
+    @ZenMethod
+    public static String formatLiquid(long value) {
+        if (value < 1000) {
+            return value + "mB UU物质";
+        } else {
+            double formattedValue = value / 1000.0;
+            return String.format("%.3f", formattedValue) + "B UU物质";
+        }
+    }
+
+    @ZenMethod
+    public static double formatLiquidDouble(double value) {
+        value = value * 1000;
+        final long round = Math.round(value);
+        if (round == 0) return 1;
+        return round;
     }
 
     @ZenMethod
@@ -122,5 +141,7 @@ public class NovaEngUtils {
 
         return result.toString();
     }
+
+
 
 }

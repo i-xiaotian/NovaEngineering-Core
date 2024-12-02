@@ -47,7 +47,7 @@ public class NetNodeImpl extends NetNode {
                                       final ResearchCognitionData... researchRequired)
     {
         if (centerPos == null || center == null) {
-            event.setFailed("未连接至计算网络！");
+            event.setFailed("未连接至星辰网络！");
             return;
         }
 
@@ -71,13 +71,13 @@ public class NetNodeImpl extends NetNode {
                               final ResearchCognitionData... researchRequired)
     {
         if (centerPos == null || center == null) {
-            event.setFailed("未连接至计算网络！");
+            event.setFailed("未连接至星辰网络！");
             return;
         }
 
         Collection<Database> nodes = center.getNode(Database.class);
         if (nodes.isEmpty()) {
-            event.setFailed("计算网络中未找到数据库！");
+            event.setFailed("星辰网络中未找到NAS！");
             return;
         }
 
@@ -99,11 +99,11 @@ public class NetNodeImpl extends NetNode {
 
     public void onRecipePreTick(final RecipeTickEvent event, final double computation, final boolean triggerFailure) {
         if (centerPos == null) {
-            event.setFailed(true, "未连接至计算网络！");
+            event.setFailed(true, "未连接至星辰网络！");
             return;
         }
         if (center == null) {
-            event.preventProgressing("未连接至计算网络！");
+            event.preventProgressing("未连接至星辰网络！");
             return;
         }
         double required = computation * event.getActiveRecipe().getParallelism();
@@ -124,11 +124,11 @@ public class NetNodeImpl extends NetNode {
 
     public void onRecipePreTick(final FactoryRecipeTickEvent event, final double computation, final boolean triggerFailure) {
         if (centerPos == null) {
-            event.setFailed(true, "未连接至计算网络！");
+            event.setFailed(true, "未连接至星辰网络！");
             return;
         }
         if (center == null) {
-            event.preventProgressing("未连接至计算网络！");
+            event.preventProgressing("未连接至星辰网络！");
             return;
         }
         double required = computation * event.getActiveRecipe().getParallelism();

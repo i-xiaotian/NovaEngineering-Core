@@ -35,7 +35,7 @@ import java.util.UUID;
 public class HyperNetHelper {
 
     /**
-     * 自动代理一个模块化机械，使其能够接入 HyperNet 计算网络，并在控制器添加网络相关信息。
+     * 自动代理一个模块化机械，使其能够接入 HyperNet 星辰网络，并在控制器添加网络相关信息。
      * 默认使用 {@link NetNodeImpl} 实现。
      *
      * @param machineName 机械名称

@@ -64,7 +64,7 @@ public class DataProcessor extends NetNode {
     @ZenMethod
     public void onRecipeCheck(RecipeCheckEvent event) {
         if (centerPos == null || center == null) {
-            event.setFailed("未连接至计算网络！");
+            event.setFailed("未连接至星辰网络！");
             return;
         }
 
@@ -130,11 +130,11 @@ public class DataProcessor extends NetNode {
 
     protected boolean workingCheck(final FactoryRecipeTickEvent event) {
         if (centerPos == null) {
-            event.setFailed(true, "未连接至计算网络！");
+            event.setFailed(true, "未连接至星辰网络！");
             return true;
         }
         if (center == null) {
-            event.preventProgressing("未连接至计算网络！");
+            event.preventProgressing("未连接至星辰网络！");
             return true;
         }
         if (overheat) {

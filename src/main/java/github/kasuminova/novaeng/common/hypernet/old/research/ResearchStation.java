@@ -50,7 +50,7 @@ public class ResearchStation extends NetNode {
     @ZenMethod
     public void onRecipeCheck(final RecipeCheckEvent event) {
         if (centerPos == null || center == null) {
-            event.setFailed("未连接至计算网络！");
+            event.setFailed("未连接至星辰网络！");
             return;
         }
 
@@ -73,7 +73,7 @@ public class ResearchStation extends NetNode {
 
         Collection<Database> nodes = center.getNode(Database.class);
         if (nodes.isEmpty()) {
-            event.setFailed("计算网络中未找到数据库！");
+            event.setFailed("星辰网络中未找到NAS！");
             return;
         }
 
@@ -88,7 +88,7 @@ public class ResearchStation extends NetNode {
     @ZenMethod
     public void onWorkingTick(final FactoryRecipeTickEvent event) {
         if (centerPos == null) {
-            event.setFailed(true, "未连接至计算网络！");
+            event.setFailed(true, "未连接至星辰网络！");
             return;
         }
         if (currentResearching == null) {
@@ -96,7 +96,7 @@ public class ResearchStation extends NetNode {
             return;
         }
         if (center == null) {
-            event.preventProgressing( "未连接至计算网络！");
+            event.preventProgressing( "未连接至星辰网络！");
             return;
         }
 

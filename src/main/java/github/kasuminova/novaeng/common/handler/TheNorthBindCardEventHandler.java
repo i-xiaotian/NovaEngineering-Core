@@ -26,9 +26,9 @@ import java.util.List;
 import java.util.Objects;
 
 @SuppressWarnings("unused")
-public class SpaceStationCardEventHandler {
+public class TheNorthBindCardEventHandler {
 
-    public static final SpaceStationCardEventHandler INSTANCE = new SpaceStationCardEventHandler();
+    public static final TheNorthBindCardEventHandler INSTANCE = new TheNorthBindCardEventHandler();
     private static final ResourceLocation SPACE_STATION_CARD_ITEM = new ResourceLocation("minecraft", "paper");
     private static final ResourceLocation STELLAR_ENERGY_CONVERTER_CARD_ITEM = new ResourceLocation("minecraft", "feather");
 
@@ -39,7 +39,7 @@ public class SpaceStationCardEventHandler {
     private static final String[] SHIP_KEYS = {"shipOne", "shipTwo", "shipThree", "shipFour"};
 
 
-    private SpaceStationCardEventHandler() {
+    private TheNorthBindCardEventHandler() {
 
     }
 
@@ -117,7 +117,7 @@ public class SpaceStationCardEventHandler {
                 ctrlTag.setTag("stationY", new NBTTagInt(spaceStationY));
                 ctrlTag.setTag("stationZ", new NBTTagInt(spaceStationZ));
 
-                final String format = String.format("§9星畔港坐标：(§ax: §b%d§a, y: §b%d§a, z: §b%d§9) 已绑定至此星舟", x, y, z);
+                final String format = String.format("§9星畔港坐标：(§ax: §b%d§a, y: §b%d§a, z: §b%d§9) 已绑定至此星舟", spaceStationX, spaceStationY, spaceStationZ);
                 entityPlayer.sendMessage(new TextComponentString(format));
             }
 
