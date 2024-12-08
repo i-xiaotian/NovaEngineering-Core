@@ -7,6 +7,8 @@ import crafttweaker.api.mods.IMod;
 import stanhebben.zenscript.annotations.ZenClass;
 import stanhebben.zenscript.annotations.ZenMethod;
 
+import java.math.BigDecimal;
+import java.math.BigInteger;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
@@ -15,6 +17,8 @@ import java.text.NumberFormat;
 @ZenClass("novaeng.NovaEngUtils")
 public class NovaEngUtils {
     private static final DecimalFormat DECIMAL_FORMAT = new DecimalFormat("#,###.##");
+
+
 
     static {
         DECIMAL_FORMAT.setRoundingMode(RoundingMode.HALF_UP);
@@ -140,6 +144,30 @@ public class NovaEngUtils {
         if (seconds > 0) result.append(seconds).append("秒");
 
         return result.toString();
+    }
+
+    private static final String[] UNITS = {"", "K", "M", "G", "T", "P", "E"};
+    private static final BigDecimal UNIT_SIZE = BigDecimal.valueOf(1000);
+
+    @ZenMethod
+    public static String formatBigNumber(String value) {
+        BigDecimal bigValue;
+        try {
+            bigValue = new BigDecimal(value);
+        } catch (NumberFormatException e) {
+            throw new IllegalArgumentException("Invalid input: " + value);
+        }
+
+        if (bigValue.compareTo(BigDecimal.ZERO) == 0) {
+            return "0";
+        }
+
+        int unitIndex = Math.min(UNITS.length - 1, (bigValue.precision() - bigValue.scale()) / 3);
+
+        BigDecimal divisor = UNIT_SIZE.pow(unitIndex);
+        BigDecimal scaledValue = bigValue.divide(divisor, 2, RoundingMode.HALF_UP);
+
+        return String.format("%.2f %s", scaledValue.doubleValue(), UNITS[unitIndex]);
     }
 
 
