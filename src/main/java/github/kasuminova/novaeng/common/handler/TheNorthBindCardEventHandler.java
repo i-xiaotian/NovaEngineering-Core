@@ -29,8 +29,8 @@ import java.util.Objects;
 public class TheNorthBindCardEventHandler {
 
     public static final TheNorthBindCardEventHandler INSTANCE = new TheNorthBindCardEventHandler();
-    private static final ResourceLocation SPACE_STATION_CARD_ITEM = new ResourceLocation("minecraft", "paper");
-    private static final ResourceLocation STELLAR_ENERGY_CONVERTER_CARD_ITEM = new ResourceLocation("minecraft", "feather");
+    private static final ResourceLocation SPACE_STATION_CARD_ITEM = new ResourceLocation("contenttweaker", "space_station_card");
+    private static final ResourceLocation STELLAR_ENERGY_CONVERTER_CARD_ITEM = new ResourceLocation("contenttweaker", "space_ship_card");
 
     private static final String SPACE_STATION_CONTROLLER_NAME = "modularmachinery:space_station";
     private static final String SPACE_MINING_SATELLITE_CONTROLLER_NAME = "modularmachinery:space_mining_satellite";
