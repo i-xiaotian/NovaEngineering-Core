@@ -9,11 +9,8 @@
         "forge.MixinSimpleIndexedCodec"
     ],
     "client": [
-        "MixinFontRenderer",
-        "MixinNettyCompressionDecoder"
-    ],
-    "server": [
-        "forge.MixinFMLEventChannel",
-        "forge.MixinSimpleNetworkWrapper"
+      "AccessorParticleManager",
+      "MixinFontRenderer",
+      "MixinNettyCompressionDecoder"
     ]
 }
